@@ -28,10 +28,10 @@ ru <COMMAND>
 ```
 
 ### Commands
-- **wad/wei/gwei**: Convert a value to wei, gwei, and ether.
-- **from-hex/fhex**: Convert a value from hex to string, uint256, int256, and float.
-- **to-hex/thex**: Convert a value to hex.
--- **help**: Print help message or the help of the given subcommand(s).
+- **`wad`/`wei`/`gwei`**: Convert a value to wei, gwei, and ether.
+- **`from-hex`/`fhex`**: Convert a value from hex to string, uint256, int256, and float.
+- **`to-hex`/`thex`**: Convert a value to hex.
+-- **`help`**: Print help message or the help of the given subcommand(s).
 
 ### Options
 `-h`, `--help`: Print help.
