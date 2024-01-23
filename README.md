@@ -16,7 +16,7 @@ bash install
 ## Uninstallation
 To uninstall this tool, you must remove the tool from your `/usr/local/bin` directory.
 ```bash
-sudo rm /usr/local/bin/ru
+sudo rm /usr/local/bin/rr
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ To use this tool, run the following command in your terminal:
 
 ```bash
 Copy code
-ru <COMMAND>
+rr <COMMAND>
 ```
 
 ### Commands
@@ -40,7 +40,7 @@ ru <COMMAND>
 
 #### Convert 1 ether to wei
 ```bash
-ru wad 1
+rr wad 1
 
 +---------------------+-------------+----------------------+
 | From ether          | From gwei   | From wei             |
@@ -55,7 +55,7 @@ ru wad 1
 
 #### Convert to hex
 ```bash
-ru thex 1000
+rr thex 1000
 
 +------------+----------+---------+--------------------+
 | String     | Uint 256 | Int 256 | Float              |
@@ -66,7 +66,7 @@ ru thex 1000
 
 #### Convert from hex
 ```bash
-ru fhex 0x31303030
+rr fhex 0x31303030
 
 +--------+--------------+-------------+---------------+
 | String | Unsigned int | int256      | Float         |
